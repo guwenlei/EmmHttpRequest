@@ -1,0 +1,12 @@
+
+target 'EmmHttpRequest_Example' do
+  pod 'EmmHttpRequest', :path => '../'
+
+  target 'EmmHttpRequest_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+  pod 'AFNetworking'
+  pod 'YYCache'
+end

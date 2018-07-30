@@ -1,0 +1,6 @@
+module Pods_EmmHttpRequest_Tests {
+  umbrella header "Pods-EmmHttpRequest_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
